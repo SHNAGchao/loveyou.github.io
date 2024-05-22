@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>瑶瑶</title>
+     <link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+<canvas id="c"></canvas>
+
+<div id="text"></div>
+
+<div id="text_520">5 2 0</div>
+
+<img src="images/1.jpg" class="img" />
+<a id="last" href="message_board.php">李想 💕 吴姝瑶</a>
+
+<script type="text/javascript">
+    function isIE(){
+        let u = navigator.userAgent;
+        if((u.indexOf("compatible") > -1 && u.indexOf("MSIE") > -1) || (u.indexOf("Trident") > -1 && u.indexOf("rv:11.0") > -1)){
+            alert("该浏览器暂不支持，请更换浏览器");
+            window.open('','_self');
+            window.close();
+        }
+        let audio = document.createElement("audio");
+        audio.setAttribute("src","./520-love.mp3");
+        audio.setAttribute("autoplay","autoplay");
+    }
+    isIE();
+</script>
+
+
+
+<script src="js/jquery-3.7.1.js"></script>
+<script src="js/js.js"></script>
+</body>
+</html>
